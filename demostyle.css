@@ -1,3 +1,9 @@
+/*
+* {
+	border: 1px solid; black;
+}
+*/
+
 body {
     background-color: #EDF2F4;
     font-family: Helvetica, Arial, sans-serif;
@@ -6,6 +12,11 @@ body {
 p {
     color: #2B2D42;
 }
+
+.section {
+	display: flex;
+}
+
 
 h1 {
     color: #D80032;
@@ -17,3 +28,14 @@ h2 {
     border-top: 1px solid #8D99AE;
 }
 
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline;
+	/*padding-left: 5px;*/
+	/*padding-right: 5px;*/
+	margin-left: 5px;
+	margin-right: 5px;
+}
