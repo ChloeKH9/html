@@ -1,6 +1,6 @@
 /*
 * {
-	border: 1px solid; black;
+	border: 1px solid black;
 }
 */
 
@@ -10,13 +10,9 @@ body {
 }
 
 p {
+	margin-left: 5px;
     color: #2B2D42;
 }
-
-.section {
-	display: flex;
-}
-
 
 h1 {
     color: #D80032;
@@ -34,8 +30,10 @@ ul {
 
 li {
 	display: inline;
-	/*padding-left: 5px;*/
-	/*padding-right: 5px;*/
-	margin-left: 5px;
-	margin-right: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.section {
+	display: flex;
 }
